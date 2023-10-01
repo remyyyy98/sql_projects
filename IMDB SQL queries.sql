@@ -1,14 +1,9 @@
-PostgreSQL data analysis project to provide valuable insights and benefits for various stakeholders. Such as
-Understanding audience preferences
-Evaluate the financial success of movies
-Identify common elements in successful movies
-To build recommendation engines that suggest relevant films to users
-To study broader trends in the film industry
 
 --Total number of movies in table
 Select count(movie) as total_movies
 from imdb_top_1000
 where movie is not null
+
 
 --List all movies released in the year 2020.
 Select 
